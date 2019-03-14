@@ -4,7 +4,7 @@ import traceback
 import pandas as pd
 import numpy as np
 
-with open("C:/Users/willjdsouza/Flask2/model/hockey_model.pkl", 'rb') as f:
+with open("C:/Users/willjdsouza/puckapp/puckapp/model.pkl", 'rb') as f:
     model = pickle.load(f)
 #model_columns = joblib.load("C:/Users/willjdsouza/Flask2/model_columns.pkl") # Load
 
